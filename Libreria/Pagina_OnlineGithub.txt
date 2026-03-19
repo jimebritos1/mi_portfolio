@@ -1,0 +1,14 @@
+Cómo activar tu Portfolio Online
+Entra a tu repositorio en GitHub desde el navegador (github.com/jimebritos1/mi_portfolio).
+
+Arriba, en las pestañas, haz clic en Settings (la del icono del engranaje ⚙️).
+
+En el menú de la izquierda, busca la sección Code and automation y haz clic en Pages.
+
+En el apartado Build and deployment, asegúrate de que diga:
+
+Source: Deploy from a branch.
+
+Branch: Selecciona main (o master) y en la carpeta de al lado deja seleccionado /(root).
+
+Haz clic en el botón Save.

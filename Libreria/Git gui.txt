@@ -1,0 +1,34 @@
+. Inicializar el Repositorio (Solo la primera vez)
+Abre Git GUI en la carpeta de tu proyecto (clic derecho > Open Git GUI here).
+
+Si no está inicializado, elige "Create New Repository" y selecciona la carpeta de tu proyecto. Esto crea la carpeta oculta .git.
+
+2. Preparar los archivos (Stage)
+En la columna "Unstaged Changes" (arriba a la izquierda) verás tus archivos.
+
+Haz clic en el botón "Stage Changed".
+
+Si te pregunta si quieres agregar todos los archivos, dile que Sí. Ahora pasarán a la sección "Staged Changes" (abajo a la izquierda).
+
+3. Guardar los cambios (Commit)
+En el cuadro "Commit Message" (a la derecha), escribe una descripción de lo que hiciste (ej: "Mi primer portfolio con Bootstrap").
+
+Haz clic en el botón "Commit". Los archivos desaparecerán de la lista de la izquierda porque ya están guardados localmente.
+
+4. Conectar con GitHub (Remote)
+Ve al menú superior: Remote > Add...
+
+En Name escribe: origin.
+
+En Location pega el enlace HTTPS de tu repositorio (el que termina en .git).
+
+Ejemplo: https://github.com/tu-usuario/tu-proyecto.git
+
+Elige la opción "Do nothing else now" y dale a Add.
+
+5. Subir a la nube (Push)
+Haz clic en el botón azul "Push" (abajo a la derecha).
+
+Asegúrate de que en la ventana que se abre diga Source Branches: main (o master) y dale a Push.
+
+Si se abre una ventana del navegador, dale a "Authorize" para permitir la conexión.
