@@ -1,6 +1,31 @@
 /* Esto afecta a TODA la página */
 /* Para usar la Bitcount (la decorativa) */
+
 body {
+    /* ACÁ VA LA RUTA A TU IMAGEN DE FONDO GENERAL */
+
+    /* 1. Poné acá la ruta a tu imagen de fondo general */
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url("../imagenes_portfolio/imagen4.jpg");
+    
+    /* 2. Hace que la imagen no se mueva cuando hacés scroll */
+    background-attachment: fixed; 
+    
+    /* 3. Centra la imagen y hace que cubra toda la pantalla siempre */
+    background-position: center;
+    background-size: cover;
+    
+    /* 4. Evita que la imagen se repita como mosaico */
+    background-repeat: no-repeat;
+    
+    /* 5. Color de respaldo por si la imagen tarda en cargar */
+    background-color: #1a1a1a; 
+
+    /* 6. Asegura que el contenido no se superponga al fondo */
 
     margin: 0;
     padding: 0;
@@ -34,41 +59,44 @@ button, input, select, textarea {
 }
 
 .fondo_datos {
+    /* Cambiamos el blanco (255,255,255) por negro (0,0,0) al 50% de opacidad */
+    background-color: rgba(0, 0, 0, 0.5); 
     
-    background-image: url("../imagenes_portfolio/imagen3.jpg");
-    background-size: cover; /* Hace que la imagen cubra todo el div */
-    background-position: center; /* Centra la imagen dentro del div */
-    max-width: 800px;          /* Ancho máximo */
-    margin: 40px auto;         /* Centra el bloque horizontalmente */
-    padding: 20px;             /* Espacio interno */
-    border-radius: 15px;       /* Bordes redondeados */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* Sombra elegante */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Mantenemos el borde clarito para que resalte */
     
+    /* El resto queda igual */
+    border-radius: 15px;
+    padding: 30px;
+    color: #ffffff; /* Blanco puro para el texto */
 }
 .datos{
     font-size: 18px; /* Tamaño de fuente legible */
-    color: #333; /* Color del texto */
+    color: #bdb7b7; /* Color del texto */
     line-height: 1.6; /* Espaciado entre líneas */
     font-family: 'Arial', sans-serif; /* Fuente del texto */ 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
+
 .foto-perfil {
-    width: 150px; /* Ancho de la foto */
-    height: 150px; /* Alto de la foto */
+    width: 200px; /* Ancho de la foto */
+    height: 200px; /* Alto de la foto */
     border-radius: 50%; /* Hace que la foto sea circular */
     object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
     margin-bottom: 20px; /* Espacio debajo de la foto */
 }
-.fondo {
 
+/*
+.fondo {
     background-image:
     linear-gradient(
-        rgba(0,0,0,0.7), /*capa negra semi transparente*/
-        rgba(0,0,0,0.7) /*repetimos el color*/
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
     ),
-    url("../imagenes_portfolio/imagen4.jpg"); /*Pone la imagen como fondo*/
-    background-size: cover; /*Hace que la imagen cubra todo el div*/
-    background-position: center; /*Centra la imagen dentro del div*/
-    background-repeat: no-repeat; /*No se repite la imagen*/
-    min-height: 100vh; /*Hace que el div ocupe toda la pantalla*/
-
+    url("../imagenes_portfolio/imagen4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+*/

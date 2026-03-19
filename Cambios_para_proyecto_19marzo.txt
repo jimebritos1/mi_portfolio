@@ -1,0 +1,24 @@
+¡Excelente! Ya se ve perfecto. Estuve revisando el link y el diseño con Bootstrap ya está cargando correctamente, lo que significa que lograste acomodar los archivos en la raíz del repositorio.
+
+Veo que el menú de navegación (Navbar) y las secciones están bien estructuradas. Para que tu portfolio pase de "bueno" a "profesional", te sugiero estos 3 ajustes rápidos que podés hacer en tu código:
+
+1. El Título de la Pestaña
+En tu index.html, fijate que entre las etiquetas <title>...</title> diga algo representativo, como:
+Jime Britos | Portfolio - Programadora
+(Actualmente suele quedar como "Document" o "Bootstrap Demo" si no lo cambiaste).
+
+2. Imágenes de Proyectos
+Como todavía no tenés capturas de tus propios sistemas (como el de Java o el que estás armando en WordPress), podés usar imágenes de relleno (placeholders) de alta calidad.
+
+Te recomiendo usar Unsplash o Pexels buscando términos como "code", "programming" o "web design". Se ve mucho mejor que una imagen genérica de Google.
+
+3. El Formulario de Contacto
+Si tenés un formulario abajo, recordá que por ahora es solo visual. Si querés que los mensajes te lleguen a tu mail de verdad sin programar un backend complejo, podés usar Formspree:
+
+Cambiá el <form> por esto:
+<form action="https://formspree.io/f/tu-codigo-aca" method="POST">
+
+Solo tenés que registrarte en su web (es gratis) y te dan ese código.
+
+Un último detalle de "Colega":
+Vi que el diseño es limpio y se adapta bien (es responsive). Como estás cursando la Tecnicatura, un golazo sería agregar una sección o un ítem en el CV que mencione que estás trabajando en un proyecto interdisciplinario. Eso demuestra que sabés trabajar en equipo, una "soft skill" que vale oro.
