@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPortfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+<!--Fuente de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!--Fuente de letra para el titulo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!--Estilos CSS-->   
+<link rel="stylesheet" href="css/style.css">
+<!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin Navbar-->
+    <!--Contenido-->
+    <div class="fondo m-0 p-0">
+        <div class=" titulo">
+        <h1 class="m-0 p-0">Mi Portfolio</h1>
+    </div>
+
+    <div class="fondo_datos">
+
+        <div class ="datos">
+            <img src="imagenes_portfolio/foto_perfil.jpg" alt="foto-perfil" class="foto-perfil">
+            <h2>Datos personales</h2>
+            <p>Nombre: María Jimena Britos</p>
+            <p>Edad: 25 años</p>
+            <p>Profesión: Desarrollador web</p>
+        </div>
+
+    </div>
+    
+    <!--Fin Contenido-->
+<!--Contacto-->
+    <div class="container my-0">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 shadow p-4 rounded bg-white">
+            
+            <h3 class="text-center mb-4">Contacto</h3>
+
+            <div class="contacto">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Tu Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Dejá tu mensaje" id="floatingTextarea" style="height: 150px"></textarea>
+                    <label for="floatingTextarea">Mensaje</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingSelect" aria-label="Motivo">
+                        <option selected>Selecciona un motivo</option>
+                        <option value="1">Consulta laboral</option>
+                        <option value="2">Proyecto nuevo</option>
+                        <option value="3">Otro</option>
+                    </select>
+                    <label for="floatingSelect">Motivo del contacto</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 py-2">Enviar Mensaje</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!--Fin Contacto-->
+<!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

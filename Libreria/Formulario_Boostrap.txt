@@ -1,0 +1,34 @@
+Para que te quede grabado como fuego, pensalo así:
+
+container: Es como el marco de un cuadro. Evita que el contenido se pegue a los bordes de la pantalla.
+
+row: Es un renglón horizontal que activa el "modo grilla".
+
+col-md-6: Es la instrucción de tamaño. Como Bootstrap divide todo en 12 cuadritos invisibles, al decirle 6, le estás diciendo "ocupá la mitad".
+
+¿Por qué usamos md?
+Esa es la parte más inteligente. md viene de Medium (Tablets/Laptops).
+
+Si la pantalla es grande (Laptop), ocupa el 50% (6 de 12).
+
+Si la pantalla es chica (Celular), Bootstrap ignora el 6 y hace que ocupe el 100% para que no se vea minúsculo y sea fácil de usar con el dedo.
+
+¿Cómo cambiar el tamaño ahora que lo sabés?
+Si sentís que el formulario sigue siendo muy ancho, solo tenés que cambiar ese número:
+
+col-md-4: Ocuparía un 33% (más flaquito, queda muy elegante para contactos cortos).
+
+col-md-8: Ocuparía un 66% (más ancho).
+
+Un toque final para tu diseño
+Como ya tenés el div de contacto adentro, podés jugar con los colores de Bootstrap sin tocar CSS.
+
+Si querés que el botón sea de otro color para que resalte:
+
+btn-success (Verde)
+
+btn-danger (Rojo)
+
+btn-dark (Negro/Gris oscuro)
+
+btn-info (Celeste)

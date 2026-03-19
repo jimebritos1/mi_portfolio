@@ -1,0 +1,31 @@
+.fondo {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),  /* Capa negra semi transparente */
+            rgba(0, 0, 0, 0.5)   /* Repetimos el mismo color */
+        ),
+        url("../imagenes_portfolio/fondo.jpg"); /* Tu imagen */
+
+    background-size: cover;       /* Cubre todo el div */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat; /* No se repite */
+    min-height: 100vh;            /* Ocupa toda la pantalla */
+}
+
+🎯 ¿Qué significa el 0.5?
+
+Es la opacidad:
+
+0 → totalmente transparente
+
+0.3 → apenas oscuro
+
+0.5 → oscuro medio
+
+0.7 → bastante oscuro
+
+1 → completamente negro
+
+.fondo {
+    color: white; /* Hace el texto blanco */
+}

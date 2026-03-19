@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "html5up-forty"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Mi_Porfolio"
+	}
+}

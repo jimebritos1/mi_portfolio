@@ -1,0 +1,24 @@
+/* Títulos con la letra decorativa */
+h1, h2, h3, .navbar-brand {
+    font-family: "Bitcount Grid Double Ink", display;
+}
+
+/* El resto de la página con letra clara y legible */
+body, p, input, label, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink..." rel="stylesheet">
+
+<link rel="stylesheet" href="estilos.css">
+
+Resumen para tu Notion (Solución de Problemas de Fuentes)
+Nombre exacto: Verificar en Google Fonts la sección "CSS rules to specify families".
+
+Comillas: Usar siempre "" si el nombre tiene espacios.
+
+Prioridad: El archivo CSS debe ir después del <link> de la fuente en el HTML.
+
+¿Probaste poniéndole las comillas en el CSS? Si lo haces y guardas (fíjate de refrescar el navegador con Ctrl + F5 para limpiar la caché), debería cambiar al instante.

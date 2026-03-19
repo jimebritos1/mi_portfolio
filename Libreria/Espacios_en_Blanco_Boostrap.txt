@@ -1,0 +1,10 @@
+El "Kit de Emergencia" para espacios blancos
+Cuando una caja no pegue con otra, revisá este orden:
+
+m-0: Quitar márgenes de Bootstrap.
+
+p-0: Quitar paddings de Bootstrap.
+
+display: flex: El contenedor padre debería ser flex para controlar mejor a los hijos.
+
+align-items: stretch: Para que las cajas ocupen todo el alto disponible.

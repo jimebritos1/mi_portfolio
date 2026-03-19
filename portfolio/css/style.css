@@ -1,0 +1,74 @@
+/* Esto afecta a TODA la página */
+/* Para usar la Bitcount (la decorativa) */
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: "Bitcount Grid Double Ink", sans-serif;
+}
+
+/* O si prefieres la Open Sans para que sea más legible */
+/* body {
+    font-family: 'Open Sans', sans-serif;
+} 
+*/
+
+/* Títulos con la letra decorativa */
+h1, h2, h3, .navbar-brand {
+    font-family: "Bitcount Grid Double Ink", display;
+}
+
+/* El resto de la página con letra clara y legible */
+body, p, input, label, button {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Esto asegura que los elementos de formulario también obedezcan */
+button, input, select, textarea {
+    font-family: inherit;
+}
+.titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 0px; /* Agrega un margen superior para separar el título del borde de la página */
+    color: #faf6f6; /* Cambia el color del texto a un tono oscuro */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente del texto */
+}
+
+.fondo_datos {
+    
+    background-image: url("../imagenes_portfolio/imagen3.jpg");
+    background-size: cover; /* Hace que la imagen cubra todo el div */
+    background-position: center; /* Centra la imagen dentro del div */
+    max-width: 800px;          /* Ancho máximo */
+    margin: 40px auto;         /* Centra el bloque horizontalmente */
+    padding: 20px;             /* Espacio interno */
+    border-radius: 15px;       /* Bordes redondeados */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* Sombra elegante */
+    
+}
+.datos{
+    font-size: 18px; /* Tamaño de fuente legible */
+    color: #333; /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */ 
+}
+.foto-perfil {
+    width: 150px; /* Ancho de la foto */
+    height: 150px; /* Alto de la foto */
+    border-radius: 50%; /* Hace que la foto sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    margin-bottom: 20px; /* Espacio debajo de la foto */
+}
+.fondo {
+
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.7), /*capa negra semi transparente*/
+        rgba(0,0,0,0.7) /*repetimos el color*/
+    ),
+    url("../imagenes_portfolio/imagen4.jpg"); /*Pone la imagen como fondo*/
+    background-size: cover; /*Hace que la imagen cubra todo el div*/
+    background-position: center; /*Centra la imagen dentro del div*/
+    background-repeat: no-repeat; /*No se repite la imagen*/
+    min-height: 100vh; /*Hace que el div ocupe toda la pantalla*/
+
+}
